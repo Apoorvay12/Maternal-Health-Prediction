@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #survey-block {
+            position: fixed;
+            top: 60%;
+            left: 10px;
+            transform: translateY(-50%);
+            width: 300px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #survey-block h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        #survey-form {
+            display: flex;
+            flex-direction: column;
+        }
+        #survey-form label {
+            margin-bottom: 5px;
+        }
+        #survey-form input[type="number"] {
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        #survey-form input[type="submit"] {
+            padding: 10px;
+            background-color: #5c3d28;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #survey-form input[type="submit"]:hover {
+            background-color: #8b5a2b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>MaternalBloomAI</h1>
+            <h2>From Data to Delivery - Protecting Maternal Health</h2>
+            <nav>
+                <ul>
+                    <li><a href="code.html">Information</a></li>
+                    <li><a href="visualizations.html">Visualizations</a></li>
+                    <li><a href="conclusions.html">About Us</a></li>
+                    <li><a href="Help.html">Appointment & Consultation</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div id="survey-block">
+        <h2>Survey</h2>
+        <form id="survey-form">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="systolic-bp">Systolic Blood Pressure:</label>
+            <input type="number" id="systolic-bp" name="systolic-bp" required>
+            
+            <label for="diastolic-bp">Diastolic Blood Pressure:</label>
+            <input type="number" id="diastolic-bp" name="diastolic-bp" required>
+            
+            <label for="bs">Blood Sugar (BS):</label>
+            <input type="number" id="bs" name="bs" required>
+            
+            <label for="heart-rate">Heart Rate:</label>
+            <input type="number" id="heart-rate" name="heart-rate" required>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <main>
+        <section id="models">
+            <br>
+            <h1>Understanding the Health Inputs</h2>
+            <h3>Age, SystolicBP, DiastolicBP, Blood Sugar Level, HeartRate</h3>
+            <br>
+            <section id="insights">
+                <p>
+                    <strong>Age:</strong> Age represents the age of a woman when she is pregnant. Maternal age is an important factor in pregnancy outcomes and can influence the risk of various complications, such as chromosomal abnormalities, gestational diabetes, and hypertension.
+                    <br><br>
+                    <strong>Systolic Blood Pressure (SystolicBP):</strong> Systolic blood pressure is the higher value of blood pressure measured in millimeters of mercury (mmHg) when the heart contracts and pumps blood into the arteries. During pregnancy, elevated systolic blood pressure can indicate conditions such as gestational hypertension or preeclampsia, which may pose risks to both the mother and the baby.
+                    <br><br>
+                    <strong>Diastolic Blood Pressure (DiastolicBP):</strong> Diastolic blood pressure is the lower value of blood pressure measured in mmHg when the heart relaxes between beats. It represents the pressure in the arteries when the heart is at rest. Elevated diastolic blood pressure, particularly when accompanied by high systolic blood pressure, can indicate hypertension and increase the risk of complications during pregnancy.
+                    <br><br>
+                    <strong>Blood Glucose Level (BS):</strong> Blood glucose level refers to the concentration of glucose (sugar) in the bloodstream, measured in terms of a molar concentration, typically in millimoles per liter (mmol/L). During pregnancy, blood glucose levels are closely monitored because gestational diabetes mellitus (GDM) can develop, leading to higher-than-normal blood sugar levels. Poorly controlled blood glucose levels during pregnancy can increase the risk of complications for both the mother and the baby.
+                    <br><br>
+                    <strong>Heart Rate (HeartRate):</strong> Heart rate refers to the number of times the heart beats per minute (bpm). A normal resting heart rate during pregnancy can vary but typically ranges between 60 and 100 bpm. Monitoring heart rate is important during pregnancy to assess cardiovascular health and detect any abnormalities that may require further evaluation or intervention.
+                    <br><br>
+                    <strong>Risk Level:</strong> Risk level represents the predicted intensity level of risk during pregnancy based on the previous attributes. This could include assessing the likelihood of complications such as gestational hypertension, preeclampsia, gestational diabetes, or other maternal and fetal health concerns. Identifying and managing risk factors during pregnancy are essential for optimizing maternal and neonatal outcomes.
+                </p>
+            </section>
+            
+        </section>
+    </main>
+    <img src="C:\Users\manoj\OneDrive\Desktop\Project\indexpic.jpg" alt="Image 2" class="image-right-index">
+    <img src="C:\Users\manoj\OneDrive\Desktop\Project\indexpic2.jpg" alt="Image 2" class="image-right-index2">
+    <footer>
+        <p>&copy; 2024 Project Showcase</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
